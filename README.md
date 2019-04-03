@@ -6,12 +6,12 @@ By Yago López
 
 ## Functionality
 
-- The project uses [https://firebase.google.com](Firebase Database) as **persistance mechanism**
+- The project uses [Firebase Database](https://firebase.google.com) as **persistance mechanism**
 
 - Firebase is a **Realtime Database** based in WebSockets (It keeps a communication channel open between
  client and server, instead of the request/response HTTP protocol)
 - Because of this you can open two different browser instances,
-modify data in one of them and data will be broadcasted and synchronized with all clients in real-time
+modify data in one of them and data will be broadcasted and synchronized with any client in real-time
 
 - When a user sing-up, he is persisted to the database and his likes counter is initialised to zero
 
